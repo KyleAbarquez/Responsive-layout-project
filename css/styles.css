@@ -59,12 +59,9 @@ header {
     width: 65%;
     margin-top: 32px;
     border-radius: 10%;
-    border: solid 2px black;    
+       
 }
 
-#skills {
-    border: solid 2px black;
-}
 
 .intro {
     margin-bottom: 32px;
@@ -110,7 +107,7 @@ h3 {
 }
 
  #footer-tagline {
-     width: 350px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -239,6 +236,10 @@ footer {
     #bottom-name {
         margin-right: auto;
     }
+    
+    #footer-tagline {
+        width: 50%;
+    }
 }
 
 @media (min-width: 1024px){
@@ -275,7 +276,7 @@ footer {
     }
     
     #footer-tagline {
-        width: 500px;
+        width: 50%;
     }
         
     #bottom-nav {
